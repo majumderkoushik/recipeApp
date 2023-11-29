@@ -48,7 +48,7 @@ const CategoryList = ({ categories }) => {
     <div className='section-wrapper bg-whitesmoke py-8 mx-auto'>
       <div className='container '>
         <div className='sc-title text-center text-2xl font-bold mb-4'>Explore Categories</div>
-        <Slider {...sliderSettings} className=''>
+        <Slider {...sliderSettings}>
           {categories.map((category) => {
             const { idCategory: id, strCategory: title, strCategoryThumb: thumbnail } = category;
 
