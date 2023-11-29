@@ -1,0 +1,32 @@
+
+
+.sc-category{
+    @media screen and (min-width: 420px){
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+    }
+
+    @media screen and (min-width: 576px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (min-width: 992px){
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media screen and (min-width: 1080px){
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+.c-box {
+    
+    overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.6s;
+  margin: 10px;
+  
+}
+.c-box:hover {
+    transform: scale(0.9);
+}
